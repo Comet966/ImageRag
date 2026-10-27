@@ -13,7 +13,7 @@
 
 ## Android 安装
 
-从 [Releases](https://github.com/Comet966/ImageRag/releases/latest) 下载 APK，传到手机上安装。需要 Android 8.0 或更新版本；首次安装可能需要允许浏览器或文件管理器安装应用。
+从 [Releases](https://github.com/Comet966/ImageRag/releases) 下载 APK，传到手机上安装。需要 Android 8.0 或更新版本；首次安装可能需要允许浏览器或文件管理器安装应用。
 
 这是一份用于测试的 Debug 安装包，尚未上架应用商店，也还没有在各种真机上充分测试。
 
