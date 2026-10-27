@@ -1,0 +1,5 @@
+.media-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: -3px 0 20px; }
+.media-filters button { border: 1px solid var(--line); border-radius: 6px; background: white; color: #738077; padding: 7px 12px; font-size: 12px; transition: background .2s, color .2s; }
+.media-filters button[aria-pressed="true"] { background: #e9f1eb; border-color: #b4cbb9; color: var(--accent); }
+.media-filters button:hover:enabled { color: var(--accent); border-color: #adc4b3; }
+@media(prefers-reduced-motion:reduce) { .media-filters button { transition: none; } }

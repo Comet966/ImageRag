@@ -1,0 +1,22 @@
+{
+  "name": "image-rag",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Natural language photo search with Electron and Qwen multimodal embeddings",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "download:demo": ".venv/bin/python scripts/download_demo.py",
+    "expand:demo": ".venv/bin/python scripts/expand_demo.py",
+    "index": ".venv/bin/python -m backend.cli index",
+    "search": ".venv/bin/python -m backend.cli search",
+    "evaluate": ".venv/bin/python scripts/evaluate.py",
+    "check:dataset": ".venv/bin/python scripts/check_dataset.py",
+    "test": ".venv/bin/python -m unittest discover -s tests -v",
+    "test:e2e": "node tests/electron-smoke.cjs"
+  },
+  "devDependencies": {
+    "electron": "^45.0.0",
+    "playwright": "^1.64.1"
+  }
+}

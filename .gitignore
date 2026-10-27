@@ -1,0 +1,16 @@
+.venv/
+.env
+__pycache__/
+outputs/
+.DS_Store
+node_modules/
+.runtime/
+data/cache/
+data/images/
+data/thumbnails/
+data/index.sqlite3*
+
+# Android build artifacts
+android/.gradle/
+android/local.properties
+android/**/build/
